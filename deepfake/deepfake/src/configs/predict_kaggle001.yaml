@@ -1,0 +1,11 @@
+seed: 88
+video_dir: '/kaggle/input/deepfake-detection-challenge/test_videos/'
+submission_csv: '/kaggle/working/submission.csv'
+num_workers: 0
+
+detect:
+  'detect/configs/dfdc.yaml'
+
+classify: 
+  'classify/configs/experiments/experiment012.yaml'
+

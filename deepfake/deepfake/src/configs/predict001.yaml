@@ -1,0 +1,11 @@
+seed: 88
+video_dir: '../data/dfdc/test_videos/'
+submission_csv: '../submission.csv'
+num_workers: 0
+
+detect:
+  'detect/configs/dfdc.yaml'
+
+classify: 
+  'classify/configs/experiments/experiment012.yaml'
+
